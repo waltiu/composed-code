@@ -1,21 +1,28 @@
 {
   "name": "root",
   "private": true,
-  "prepare": "husky install",
   "scripts": {
-    "git-cz": "git-cz",
+    "commit": "git-cz",
     "preinstall": "node preinstall.js",
-    "start": "pnpm run start --filter '*'"
+    "lint-staged": "lint-staged",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx --fix",
+    "prepare": "husky install"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/@commitlint/cz-commitlint"
     }
   },
+  "lint-staged": {
+    "**/*.{js,jsx,tsx,ts}": "npm run lint"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
     "@commitlint/cz-commitlint": "^17.0.3",
+    "eslint": "^8.20.0",
+    "eslint-plugin-react": "^7.30.1",
+    "commitizen": "^4.2.4",
     "husky": "^8.0.1",
     "lerna": "^4.0.0"
   },
