@@ -20,11 +20,12 @@
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
     "@commitlint/cz-commitlint": "^17.0.3",
+    "commitizen": "^4.2.4",
     "eslint": "^8.20.0",
     "eslint-plugin-react": "^7.30.1",
-    "commitizen": "^4.2.4",
     "husky": "^8.0.1",
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "lint-staged": "^13.0.3"
   },
   "dependencies": {
     "composed-editor": "workspace:^0.0.2",
