@@ -3,7 +3,9 @@
   "private": true,
   "prepare": "husky install",
   "scripts": {
-    "git-cz": "git-cz"
+    "git-cz": "git-cz",
+    "preinstall": "node preinstall.js",
+    "start": "pnpm run start --filter '*'"
   },
   "config": {
     "commitizen": {
@@ -11,10 +13,14 @@
     }
   },
   "devDependencies": {
-    "husky": "^8.0.1",
-    "lerna": "^4.0.0",
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
-    "@commitlint/cz-commitlint": "^17.0.3"
+    "@commitlint/cz-commitlint": "^17.0.3",
+    "husky": "^8.0.1",
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "composed-editor": "workspace:^0.0.2",
+    "composed-parser": "workspace:^0.0.2"
   }
 }
