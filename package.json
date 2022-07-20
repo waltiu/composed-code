@@ -6,7 +6,8 @@
     "preinstall": "node preinstall.js",
     "lint-staged": "lint-staged",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "pub": "lerna publish"
   },
   "config": {
     "commitizen": {

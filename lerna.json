@@ -4,7 +4,7 @@
   "packages": ["packages/*"],
   "command": {
     "publish": {
-      "message": "chore: publish %s"
+      "message": "chore: publish tag"
     }
   }
 }
