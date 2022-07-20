@@ -1,4 +1,7 @@
-import Project from "./Pages/project";
-export const App = () => {
-  return <Project />;
-};
+import { useRoutes } from "react-router-dom";
+import routeConfig from "./Routes";
+function App() {
+  let element = useRoutes(routeConfig);
+  return element;
+}
+export default App;
