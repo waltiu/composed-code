@@ -1,8 +1,4 @@
-import Login from "./Pages/login";
+import Project from "./Pages/project";
 export const App = () => {
-  return (
-    <div>
-      <Login />
-    </div>
-  );
+  return <Project />;
 };

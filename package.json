@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "composed-code",
   "private": true,
   "scripts": {
     "commit": "git-cz",
@@ -29,7 +29,7 @@
     "lint-staged": "^13.0.3"
   },
   "dependencies": {
-    "composed-editor": "workspace:^0.0.2",
-    "composed-parser": "workspace:^0.0.2"
+    "composed-editor": "workspace:^0.0.3",
+    "composed-parser": "workspace:^0.0.3"
   }
 }
