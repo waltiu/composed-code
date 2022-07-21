@@ -1,5 +1,5 @@
 @import url("../../variable.less");
-.project {
+.view {
   display: flex;
   flex-direction: column;
   .header {
@@ -17,18 +17,5 @@
   .content {
     height: calc(100vh - @header-height);
     background: rgb(247, 247, 247);
-    .oper {
-      display: flex;
-      width: 504px;
-      margin: 40px auto;
-      > span {
-        &:first-child {
-          width: 360px;
-        }
-        &:nth-child(2) {
-          margin: 0px 8px;
-        }
-      }
-    }
   }
 }

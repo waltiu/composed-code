@@ -1,13 +1,13 @@
-import Login from "../Pages/login";
+// import Login from "../Pages/login";
 import Project from "../Pages/project";
 import View from "../Pages/view";
 const routeConfig = [
+  // {
+  //   path: "/",
+  //   element: <Login />,
+  // },
   {
     path: "/",
-    element: <Login />,
-  },
-  {
-    path: "/project",
     element: <Project />,
   },
   {
