@@ -1,0 +1,28 @@
+@import url("../../../../variable.less");
+
+.editor-oper-bar {
+  padding: 10px 24px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: @editor-oper-bar-height;
+  margin-top: 10px;
+  margin: 12px 24px;
+  > div {
+    display: flex;
+    .button-group {
+      display: flex;
+      &:not(:last-child) {
+        margin-right: 16px;
+      }
+      .button-item {
+        cursor: pointer;
+        color: #1d39c4;
+        background-color: #fff;
+        border: 1px solid #1d39c4;
+        padding: 2px 6px;
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "name": "composed-core",
-  "version": "0.0.3",
+  "name": "composed-hooks",
+  "version": "0.0.1",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -9,5 +9,12 @@
   },
   "author": "waltiu",
   "license": "ISC",
-  "gitHead": "eeaac69e43dba33b5024fbd062c1fb1add4ac3f5"
+  "gitHead": "eeaac69e43dba33b5024fbd062c1fb1add4ac3f5",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.13"
+  }
 }

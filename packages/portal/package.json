@@ -15,6 +15,7 @@
     "find:less": "rm -rf files.less.txt && find ./src -type f ( -iname \"*.less\" -o -iname \"*.css\" )  -print0 | xargs -0 wc -l | sort -n >> files.less.txt | echo 'Done. See files.less.txt for stats'"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
     "antd": "^4.21.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
